@@ -29,7 +29,7 @@ class Speedometer extends Component {
           alt="speedometer"
         />
         <h1 className="speedCount">
-          Speed is <span>{speed}</span>mph
+          Speed is {speed}mph
         </h1>
         <p className="speedLimit">Min Limit is 0mph, Max Limit is 200mph</p>
         <div>
